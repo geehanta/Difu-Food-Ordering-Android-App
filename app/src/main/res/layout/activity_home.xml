@@ -8,20 +8,19 @@
     tools:context=".Home">
 
     <TextView
-        android:id="@+id/logoText"
-        android:layout_width="150dp"
-        android:layout_height="45dp"
+        android:id="@+id/greetingText"
+        android:layout_width="87dp"
+        android:layout_height="29dp"
         android:fontFamily="sans-serif-black"
-        android:text="Welcome"
         android:textAlignment="viewStart"
         android:textColor="#854812"
-        android:textSize="24sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintHorizontal_bias="0.021"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.034" />
+        app:layout_constraintVertical_bias="0.041" />
 
     <ImageView
         android:id="@+id/logout"
@@ -34,6 +33,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.042"
         app:srcCompat="@drawable/logout" />
+
+    <TextView
+        android:id="@+id/fullName"
+        android:layout_width="121dp"
+        android:layout_height="29dp"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="viewStart"
+        android:textColor="#854812"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toEndOf="@+id/greetingText"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

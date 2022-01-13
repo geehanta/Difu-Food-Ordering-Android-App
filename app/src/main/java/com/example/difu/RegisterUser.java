@@ -32,7 +32,7 @@ public class RegisterUser extends AppCompatActivity  implements View.OnClickList
         setContentView(R.layout.activity_register_user);
         mAuth = FirebaseAuth.getInstance();
 
-        logoText = (TextView) findViewById(R.id.logoText);
+        logoText = (TextView) findViewById(R.id.greetingText);
         logoText.setOnClickListener(this);
 
         tvBackLogin = (TextView)findViewById(R.id.tvBackLogin);
@@ -54,7 +54,7 @@ public class RegisterUser extends AppCompatActivity  implements View.OnClickList
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.logoText:
+            case R.id.greetingText:
                 startActivity(new Intent(this,MainActivity.class));
                 break;
             case R.id.tvBackLogin:

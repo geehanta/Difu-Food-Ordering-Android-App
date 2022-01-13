@@ -9,7 +9,7 @@
 
 
     <TextView
-        android:id="@+id/logoText"
+        android:id="@+id/greetingText"
         android:layout_width="149dp"
         android:layout_height="61dp"
         android:fontFamily="sans-serif-black"
@@ -50,7 +50,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoText"
+        app:layout_constraintTop_toBottomOf="@+id/greetingText"
         app:layout_constraintVertical_bias="0.01" />
 
     <EditText
