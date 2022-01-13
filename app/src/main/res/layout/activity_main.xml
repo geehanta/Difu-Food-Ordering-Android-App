@@ -24,6 +24,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.113" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="71dp"
+        android:layout_height="69dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.114"
+        app:srcCompat="@drawable/chicken" />
+
     <TextView
         android:id="@+id/tagline"
         android:layout_width="160dp"
@@ -42,7 +54,7 @@
         app:layout_constraintVertical_bias="0.01" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/etEmail"
         android:layout_width="290dp"
         android:layout_height="48dp"
         android:layout_marginTop="96dp"
@@ -56,7 +68,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tagline" />
 
     <EditText
-        android:id="@+id/password"
+        android:id="@+id/etPassword"
         android:layout_width="287dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
@@ -70,7 +82,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail"
         app:layout_constraintVertical_bias="0.0" />
 
     <ProgressBar
@@ -87,11 +99,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.462"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword"
         app:layout_constraintVertical_bias="0.044" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/btnLogin"
         android:layout_width="225dp"
         android:layout_height="48dp"
         android:layout_marginTop="8dp"
@@ -108,7 +120,7 @@
         app:layout_constraintVertical_bias="0.435" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvForgotPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
@@ -118,11 +130,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.201"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
         app:layout_constraintVertical_bias="0.757" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvBackLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
@@ -132,8 +144,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.766"
-        app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/login"
+        app:layout_constraintStart_toEndOf="@+id/tvForgotPassword"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
         app:layout_constraintVertical_bias="0.757" />
 
 

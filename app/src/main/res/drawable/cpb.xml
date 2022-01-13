@@ -12,7 +12,7 @@
             android:toDegrees="270">
             <shape android:shape="ring"
                 android:useLevel="true">
-                <solid android:color="@color/teal_700"/>
+                <solid android:color="@color/white"/>
 
             </shape>
 
