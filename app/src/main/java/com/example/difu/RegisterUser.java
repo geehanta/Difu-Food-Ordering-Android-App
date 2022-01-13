@@ -35,7 +35,7 @@ public class RegisterUser extends AppCompatActivity  implements View.OnClickList
         logoText = (TextView) findViewById(R.id.greetingText);
         logoText.setOnClickListener(this);
 
-        tvBackLogin = (TextView)findViewById(R.id.tvBackLogin);
+        tvBackLogin = (TextView)findViewById(R.id.backToLogin);
         tvBackLogin.setOnClickListener(this);
 
         registerUser = (Button)findViewById(R.id.btnRegister);
@@ -57,7 +57,7 @@ public class RegisterUser extends AppCompatActivity  implements View.OnClickList
             case R.id.greetingText:
                 startActivity(new Intent(this,MainActivity.class));
                 break;
-            case R.id.tvBackLogin:
+            case R.id.backToLogin:
                 startActivity(new Intent(this,MainActivity.class));
             case R.id.btnRegister:
                 registerUser();
