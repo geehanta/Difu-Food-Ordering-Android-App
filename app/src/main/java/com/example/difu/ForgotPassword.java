@@ -86,5 +86,5 @@ public class ForgotPassword extends AppCompatActivity  implements View.OnClickLi
             case R.id.backToLogin:
                     startActivity(new Intent(this,MainActivity.class));
     }
-}   
+}
 }
